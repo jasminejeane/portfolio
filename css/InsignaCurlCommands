@@ -1,0 +1,18 @@
+curl -X POST -H "Content-Type: application/json" -d '{
+    "user": {
+        "password":"temp1234",
+        "email":"jasmine+bby@bluerocket.us",
+        "application": {
+            "app_id":"insignia-dev-f4774967-us-id",
+            "app_secret":"insignia-dev-f4774967-us-Tqk0VhTv-r0OdlcMz-q2p_EL9wg"
+        }
+    }
+}' 'https://user.aylanetworks.com/users/sign_in.json'
+
+
+
+curl -X POST -H "Content-Type: application/json" -H "Authorization: auth_token 5697aa0656cf4d94b6326279cca5bd9d" -d '{
+    "device":{
+        "dsn" : "AC000W000708248"
+        }
+}' 'https://ads-dev.aylanetworks.com/apiv1/devices.json'

@@ -5,6 +5,20 @@
     src: url('../fonts/Jellyka.ttf');
 }
 
+.aboutContact,
+.aboutMargin,
+.modal-body,
+.projects,
+.navbar-nav,
+.btn-default {
+
+    font-family: 'Courier New';
+    font-size: 16px;
+}
+
+.moreColor {
+    color: #fff;
+}
 
 p,
 .site {
@@ -17,6 +31,10 @@ li
 {
     list-style: none;
     font-size: 16px;
+}
+
+li:nth-child(4){
+    margin-left: 670px;
 }
 
 
@@ -39,7 +57,6 @@ li
 
     width: 45px;
     height: 45px;
-    margin-bottom: 20px;
 
     text-align: center;
 
@@ -49,7 +66,7 @@ li
 }
 .btn-outline
 {
-    font-size: 20px;
+    font-size: 18px;
 
     margin-top: 15px;
 
@@ -58,6 +75,11 @@ li
     color: #fff;
     border: solid 2px rgb(50,100,114);
     background: 0 0;
+}
+
+.site.btn-outline {
+    border: solid 1px rgb(50,100,114);
+
 }
 
 
@@ -83,8 +105,7 @@ li
     width: 1000px;
     height: 1100px;
     position: absolute;
-    margin-left: 5%;
-    border-radius: 7%;
+    margin-left: -340px;
 }
 
 .modalText,
@@ -107,7 +128,8 @@ span{
 .projects
 
 {
-    margin-top: 110px;
+    margin-top: 160px;
+    text-align: center;
 }
 
 .skillTitle{
@@ -124,6 +146,18 @@ span{
 
 #contact {
     margin-top: 100px;
+}
+
+
+.col-lg-7{
+    margin-left: 90px;
+}
+.col-lg-7:nth-child(2){
+    margin-left: 520px;
+}
+
+.skills.col-lg-3{
+    margin-top: 130px;
 }
 
 @media(max-width:1195px)
